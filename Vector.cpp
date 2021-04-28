@@ -27,7 +27,7 @@ float Vector2D::Dot(const Vector2D& a, const Vector2D& b)
 	return (a.x * b.x + a.y * b.y);
 }
 
-float Vector2D::Lenght(const Vector2D& vec)
+float Vector2D::Length(const Vector2D& vec)
 {
 	return sqrt(vec.x * vec.x + vec.y * vec.y);
 }
@@ -121,7 +121,7 @@ float Vector3D::Dot(const Vector3D& a, const Vector3D& b)
 	return (a.x * b.x + a.y * b.y + a.z * b.z);
 }
 
-float Vector3D::Lenght(const Vector3D& vec)
+float Vector3D::Length(const Vector3D& vec)
 {
 	return sqrt(vec.x * vec.x + vec.y * vec.y + vec.z * vec.z);
 }
