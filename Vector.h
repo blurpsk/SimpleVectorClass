@@ -12,7 +12,7 @@ class Vector2D
 		void Zero();
 		bool isValid();
 		float Dot(const Vector2D&, const Vector2D&);
-		float Lenght(const Vector2D&);
+		float Length(const Vector2D&);
 
 		void operator += (const Vector2D&);
 		void operator -= (const Vector2D&);
@@ -36,7 +36,7 @@ public:
 	void Zero();
 	bool isValid();
 	float Dot(const Vector3D&, const Vector3D&);
-	float Lenght(const Vector3D&);
+	float Length(const Vector3D&);
 
 	void operator += (const Vector3D&);
 	void operator -= (const Vector3D&);
